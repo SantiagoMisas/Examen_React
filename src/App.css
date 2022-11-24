@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+.App {
+  gap: 20px;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  font-family: "JetBrains Mono", monospace;
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #363434,
+    #6a6866,
+    #a0a19d,
+    #d9deda
+  );
+}
+.header {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  gap: 15px;
+  width: 100vw;
+  height: 50px;
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #e1e1e1,
+    #c3c4c5,
+    #a5a7a8,
+    #898c8c
+  );
+}
+.input {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  text-align: center;
+  width: 220px;
+  height: 30px;
+  background-image: linear-gradient(
+    to right top,
+    #ff2c00,
+    #ff0046,
+    #ff007f,
+    #ff00be,
+    #fe00ff
+  );
+  font-size: 12pt;
+  outline: none;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 5px;
+  border: transparent;
+}
+.input::placeholder {
+  color: white;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  height: 35vw;
+}
+a {
+  padding: 5px;
+  padding-top: 15px;
+  border-radius: 10px;
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+}
+.form_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_section {
+  display: flex;
+
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+
+.main_form_section {
+  display: flex;
+  background-color: #6a6866;
+  width: 40vh;
+  height: 40vw;
+}
+.img{
+  display: flex;
+  width: 30px;
+  height: 30px;
+}

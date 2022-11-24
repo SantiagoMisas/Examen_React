@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+color: chartreuse;
+padding: 5px;
+padding-top: 15px;
+}
+
+.button{
+    font-family: "JetBrains Mono", monospace;
+    color: black;
+    text-align: center;
+    width: 220px;
+    height: 30px;
+    font-size: 14pt;
+    outline: none;
+    font-weight: 800;
+    border-radius: 5px;
+    margin: 5px;
+    border: transparent;
+  }
