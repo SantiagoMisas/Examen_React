@@ -4,7 +4,7 @@
   gap: 20px;
   display: block;
   width: 100vw;
-  height: 100vh;
+  height: 120vh;
   font-family: "JetBrains Mono", monospace;
   background-image: linear-gradient(
     to right top,
@@ -34,31 +34,29 @@
     #898c8c
   );
 }
+.titulo{
+  padding-top: 60px;
+  color: chartreuse;
+}
+
+
 .input {
   font-family: "JetBrains Mono", monospace;
   color: white;
   text-align: center;
   width: 220px;
   height: 30px;
-  background-image: linear-gradient(
-    to right top,
-    #ff2c00,
-    #ff0046,
-    #ff007f,
-    #ff00be,
-    #fe00ff
-  );
   font-size: 12pt;
   outline: none;
   font-weight: 500;
   border-radius: 5px;
   margin: 5px;
-  border: transparent;
+border-color:  white;
+  background-color: transparent;
 }
 .input::placeholder {
   color: white;
 }
-
 
 form {
   display: flex;
@@ -67,7 +65,8 @@ form {
   justify-content: center;
   align-items: center;
   width: 40vw;
-  height: 35vw;
+  height: 40vw;
+  padding-top: 40px;
 }
 a {
   padding: 5px;
@@ -78,14 +77,28 @@ a {
 .main {
   display: flex;
   width: 100vw;
-  height: 40vh;
+  height: 60vh;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
+.main_img{
+
+  display: flex;
+  width: 350px;
+  height: 300px;
+  padding-top: 40px;
+  border-color: white;
+  border-radius: 15px;
+}
+
+
 .footer {
   display: flex;
   width: 100vw;
-  height: 40vh;
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
 }
 .form_footer {
   display: flex;
@@ -97,7 +110,6 @@ a {
 
 .footer_section {
   display: flex;
-
 }
 a {
   cursor: pointer;
@@ -107,11 +119,12 @@ a {
 
 .main_form_section {
   display: flex;
-  background-color: #6a6866;
-  width: 40vh;
-  height: 40vw;
+  width: 400;
+  height: 400;
+  justify-content: center;
+  align-items: center;
 }
-.img{
+.img {
   display: flex;
   width: 30px;
   height: 30px;
