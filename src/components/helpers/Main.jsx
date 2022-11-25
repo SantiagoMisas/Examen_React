@@ -4,7 +4,7 @@ return(
 <section className="main">
 
 <form className="form" action="">
-<h6 className="titulo">Información para relacionarte con tu Suggar</h6>
+<h6 className="titulo text-warning">Información para relacionarte con tu Suggar</h6>
 <input className="input" type="text" placeholder="Nombre"/>
 <input className="input" type="text" placeholder="Edad"/>
 <input className="input" type="text" placeholder="Email"/>
